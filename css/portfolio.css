@@ -28,7 +28,7 @@ body {
 /* Шапка */
 
 .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -121,19 +121,21 @@ margin-left: 50px;
 /* Кнопки */
 
 .section {
-padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .button-list .list + .list {
-    margin-left: 30px;
+    margin-left: 8px;
 }
 
 .button-list {
     display: flex;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding-top: 94px;
     padding-bottom: 34px;
+    padding-left: 0;
     justify-content: center;
 }
 
@@ -196,6 +198,11 @@ button {
     margin-bottom: 0;
 }
 
+.project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .text {
     margin-top: 0;
     margin-bottom: 0;
@@ -219,12 +226,16 @@ button {
 }
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--secondary-bg-color);
 }
 
 .adress {
-    font-style: normal;
+    margin-top: 20px;
 
+    font-style: normal;
     font-weight: 400;
     font-size: var(--primary-font-size);
     line-height: 1.71;
@@ -233,6 +244,10 @@ button {
 .adress-list {
     padding: 0;
     margin: 0;
+}
+
+.adress-list .list+.list {
+    margin-top: 9px;
 }
 
 .adress-list .link {

@@ -33,7 +33,7 @@ body {
 /* Шапка */
 
 .page-header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -127,7 +127,9 @@ body {
 
 .hero {
   margin-bottom: 0;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--secondary-bg-color);
   text-align: center;
 }
@@ -137,7 +139,6 @@ body {
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -148,14 +149,12 @@ body {
 /* Кнопки */
 
 .button {
-  margin-bottom: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
   
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -168,13 +167,19 @@ body {
 
 .section {
   margin-bottom: 0;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .feature-list {
   display: flex;
+  padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.feature-list .list {
+  width: 270px;
 }
 
 .feature-list .list + .list {
@@ -229,6 +234,7 @@ body {
 
 .section .team {
   margin-bottom: 0;
+  padding-top: 94px;
   padding-bottom: 0;
   background-color: #f5f4fa;
 }
@@ -245,6 +251,11 @@ body {
   margin-left: 30px;
 }
 
+.worker {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-list .title {
   margin-bottom: 10px;
   color: var(--secondary-text-color);
@@ -254,11 +265,16 @@ body {
   line-height: 1.19;
 }
 
+.title {
+  text-align: center;
+}
+
 .position {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--primary-text-color);
 
+  text-align: center;
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
@@ -276,10 +292,14 @@ body {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
   background-color: var(--secondary-bg-color);
 }
 
 .adress {
+  margin-top: 20px;
   font-style: normal;
   font-size: var(--primary-font-size);
   line-height: 1.71;
@@ -288,6 +308,10 @@ body {
 .adress-list {
   padding: 0;
   margin: 0;
+}
+
+.adress-list .list + .list {
+  margin-top: 9px;
 }
 
 .adress-list .link {
