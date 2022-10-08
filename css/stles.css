@@ -186,6 +186,8 @@ body {
   padding-bottom: 94px;
 }
 
+
+
 .feature-list {
   display: flex;
   padding-left: 0;
@@ -223,6 +225,11 @@ body {
 }
 
 /* Чим ми займаємося */
+
+.section-work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 
 .section-title {
   margin-top: 0;
@@ -275,6 +282,7 @@ body {
 }
 
 .team-list .title {
+  margin-top: 0;
   margin-bottom: 10px;
   color: var(--secondary-text-color);
 

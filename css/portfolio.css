@@ -136,7 +136,7 @@ body {
 .button-list {
     display: flex;
     margin-top: 0;
-    padding-bottom: 34px;
+    margin-bottom: 50px;
     padding-left: 0;
     justify-content: center;
 }
@@ -211,8 +211,7 @@ button {
 }
 
 .project {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding:20px 24px;
 }
 
 .text {
